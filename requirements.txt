@@ -3,7 +3,7 @@ numpy
 seaborn
 matplotlib
 datetime
-glob
+glob2
 folium
 streamlit
 ipython
