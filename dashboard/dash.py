@@ -66,7 +66,7 @@ def plot_year_pm25(data):
     plt.legend(title='Kota')
     st.pyplot(plt)
 
-df = pd.read_csv(r'C:\Users\ASUS\submission\data\df_final.csv')
+df = pd.read_csv('dashboard/df_final.csv')
 
 datetime_col = ["date"]
 for column in datetime_col:
